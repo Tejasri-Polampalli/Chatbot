@@ -1,0 +1,86 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Helo", "Good morning", "good afternoon", "good evening", "good night"],
+         "responses": ["Hello", "Good to see you", "Hi there, how can I help?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye","who are you", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what is your responsibility","can i know your name","name"],
+         "responses": ["I am your bot, You can call me as AI Bot"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"]
+        },
+        {"tag": "invalid",
+         "patterns": ["","gvsd","asbhk"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "product1",
+         "patterns": ["Can you provide more information about the product","what are the products", "can you suggest some products", "recommendations of products","can you show me the latest products available in your website"],
+         "responses": ["Certainly! I'd be happy to provide more details about the product. Could you please let me know which product you are referring to?"]
+        },
+        {"tag": "product2",
+         "patterns": ["can i buy products?", "Am I able to buy items?", "May I make purchases for products?"],
+         "responses": ["you can buy any Product, there are different products are available in our website"]
+        },
+        {"tag": "color",
+         "patterns": ["What are the available color options for this product", "product colors", "color"],
+         "responses": ["The product is available in multiple color options including [list of colors]. You can choose your preferred color during the ordering process"]
+        },
+        {"tag": "stock",
+         "patterns": ["Is this product currently in stock?", "stock", "product stock", "product availability", "is there stock"],
+         "responses": ["To check the availability of the product, may I have the product name or SKU number? That way, I can provide you with accurate information on its current stock status."]
+        },
+        {"tag": "size",
+         "patterns": ["What is the size of this product?", "size", "what are the sizes available"],
+         "responses": ["The size of the product are [size]. This information can also be found in the product description section on the product page"]
+        },
+        {"tag": "store",
+         "patterns": ["What are the nearest stores of this product?", "stores"],
+         "responses": ["stores regarding Fashion, Electrical, Home and Furniture, Plumbing"]
+        },
+        {"tag": "website",
+         "patterns": ["website", "tell me about website speciality?","functionality or purpose or role of website", "what is this website about?", "Could you tell me about this website?", "Can you explain what this website is focused on?","how is this website useful for vendors", "how is this website useful to users"],
+         "responses": ["This website enables users to buy products in different categories including electronics, fashion, home and living, beauty, sports, etc and helps vendors to sale their products and increase their business and customers"]
+        },
+        {"tag": "categories",
+         "patterns": ["categories", "tell me about different product categories", "what are the different product categories offered by this website", "i want to buy some products,what are different product categories are there?","can you explain categories provided by this website"],
+         "responses": ["users can buy products in different categories including electronics, fashion, home and living, beauty, sports, etc."]
+        },
+        {"tag": "services",
+         "patterns": ["services", "tell me about services offered by the website?", "what are the services provided by website"],
+         "responses": ["We offer the services like Mechanical services, Plumber & Carpenter, Insurance services, Real Estate services, Rental services, Dry Cleaning, Electrical and Catering "]
+        },
+        {"tag": "payment",
+         "patterns": ["payment process", "what are payment methods", "Can you tell about payment process", "could you explain about different payment process", "what are different payment methods acceptable"],
+         "responses": ["We accept various payment methods, including credit cards (Visa, Mastercard, American Express), PayPal, and Apple Pay. If you have any specific payment preferences, please let me know"]
+        },
+        {"tag": "order",
+         "patterns": ["order", "How can I track my order", "What is the status of my order?", "Can you please provide me with an update on my order?", "I'd like to know the current status of my order, could you help?", "What's the latest information on my order?", "Do you have any updates on the status of my order?"],
+         "responses": ["you can check your status of your order by using track my order in my orders section"]
+        },
+        {"tag": "password",
+         "patterns": ["How can I reset my password if I forget it?", "What should I do if I cannot remember my password and need to reset it?", "I have forgotten my password. How can I reset it?", "Help! I cannot recall my password. What is the process for resetting it?", "Can you guide me through the steps to reset my password since I have forgotten it?"],
+         "responses": ["If you forget your password, click on the Forgot Password link on the login page, and we will send you an email with instructions to reset it."]
+        },
+        {"tag": "electronics",
+         "patterns": ["electronics products","can i buy electronics","electronic category","I'm interested in the latest electronics. What's new in your store?", "Where can I explore a variety of electronic gadgets?", "Can you recommend the best electronic accessories? "],
+         "responses": ["Navigate to our Electronics section to explore a diverse range of electronic gadgets, including cutting-edge devices, accessories, and more.", "In our Electronics category, you'll find a selection of high-quality accessories such as headphones, chargers, and protective cases."]
+        },
+        {"tag": " Mobile & Gadgets",
+         "patterns": ["mobile","gadgets","can i buy mobile and gadgets","mobile and gadgets","I need a new smartphone. Where can I find the latest models?", "Tell me about your collection of smart gadgets."],
+         "responses": ["For the latest mobile phones and innovative gadgets, visit our Mobile & Gadgets category. Discover a range of options to fit your preferences", "Our Mobile & Gadgets category is a haven for tech enthusiasts. Explore a variety of smart devices, wearables, and accessories to make your life smarter and more convenient."]
+        },
+        {"tag": "Laptop and Computers",
+         "patterns": ["laptop","computer","can i buy laptop and computers","laptop and computers","I'm in need of a new laptop for work. Can you help me choose?", "Where can I find high-performance computers and laptops?"],
+         "responses": ["Our Laptop and Computers category offers a variety of laptops suited for different needs. Explore options based on performance, design, and features"]
+        },
+        {"tag": "refund",
+         "patterns": ["What is the refund policy?", "Could you please explain the refund policy?", "I'd like to know more about the refund policy.", "What are the rules regarding refunds?", "Can you provide information on your refund policy?", "How does the refund process work?"],
+         "responses": ["If you want to return an item you can return it in the return and refund section and after receiving the item by our service agent your refund process will be initiated and refunds the payment in 2-3 days"]
+        } 
+    ]}
